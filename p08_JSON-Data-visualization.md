@@ -1,11 +1,11 @@
 # Práctica 9. JSON Data visualization
-### Factor de ponderación: 9
+### Factor de ponderación: 8
 
 ### Objetivos
 Los objetivos de esta tarea son poner en práctica:
 * Gestión de ficheros remotos en formato JSON.
 * Manipulación, gestión, análisis y representación de datos.
-* Conceptos básicos de Programación Gráfica en TypeScript usando la API Canvas.
+* Programación Gráfica en TypeScript usando la API Canvas.
 
 ### Rúbrica de evaluacion del ejercicio
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
@@ -39,16 +39,13 @@ y que es capaz de generar documentación para sus programas utilizando la herram
 * Acreditar que es capaz de editar ficheros de forma remota en su VM usando Visual Studio Code
 
 ### Indicaciones de caracter general
-
 La aplicación que desarrolle ha de ser orientada a objetos.
 Ponga en práctica en su desarrollo los fundamentos, principios y buenas prácticas de la OOP así como los
 conocimientos que haya adquirido en el uso de patrones de diseño.
 
-Configure adecuadamente ficheros `package.json` y `tsconfig.json` en el directorio raíz de su proyecto, 
-de modo que se contemplen todas las dependencias del proyecto.
+Aloje ficheros de configuración adecuados en el directorio raíz de su proyecto, de modo que se contemplen todas las dependencias del mismo.
 
 ### Lectura de datos en formato JSON desde un servidor remoto
-
 En el directorio `read-JSON-app` de esta práctica puede hallar un ejemplo de aplicación que lee datos de un
 fichero en formato JSON alojado en un servidor remoto.
 Comience por ejecutar `npm install` para instalar los paquetes necesarios para la aplicación.
@@ -80,7 +77,7 @@ El programa `app.js`, similar al que se utilizó en la práctica 1 de la asignat
 ficheros basado en Express, mientras que `read-json.ts` es el programa principal que consume los datos desde
 ese servidor.
 Tal como se explica en la documentación de estos programas, consumiendo los datos desde el mismo servidor en
-el que se ejecuta un probrama programas se obvian ciertas restricciones de seguridad que imponen los navegadores a
+el que se ejecuta un programa se obvian ciertas restricciones de seguridad que imponen los navegadores a
 la hora de consumir datos desde un servidor externo (política 
 [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)).
 
@@ -104,19 +101,17 @@ restricciones y características que intervienen en estas comunicaciones.
 
 El objeto de estos fragmentos de código es ofrecer al alumnado un esqueleto simple que pueden tomar como punto
 de partida para sus propios desarrollos, siendo el objetivo de esta práctica leer datos (de diverso tipo)
-procedentes de una URL remota y representarlos y exponerlos gráficamente en un lienzo (canvas) de HTML.
+procedentes de una URL remota, representarlos y exponerlos gráficamente en un lienzo (canvas) de HTML.
 
 La referencias
 [Serving static files in Express](https://expressjs.com/en/starter/static-files.html)
 y
 [A Simple ExpressJS and TypeScript
 Project](https://www.codemag.com/Article/2011021/A-Simple-ExpressJS-and-TypeScript-Project)
-publicadas por un estudiante de PAI en el foro de discusiones de la asignatura pueden resultarle de interés para
-aprender sobre un proyecto como el que aquí se propone, que involucre TypeScript y 
+pueden resultarle de interés para aprender sobre un proyecto como el que aquí se propone, que involucre TypeScript y 
 [Express](https://expressjs.com/).
 
 ### Una clase para la representación gráfica de datos
-
 Desarrolle un programa `bar-chart-client.ts` que permita la representación gráfica de datos en formato
 histograma (diagrama de barras).
 Utilice como referencia para la apariencia de su aplicación
