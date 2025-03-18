@@ -1,5 +1,5 @@
 {
-  "display": "Configuration for Graphics Programming in PAI",
+  "display": "Configuration for JSON visualization in PAI",
   "compilerOptions": {
     "target": "es2022",
     "module": "commonjs",
