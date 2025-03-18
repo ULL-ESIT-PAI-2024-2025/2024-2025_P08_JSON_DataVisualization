@@ -92,11 +92,11 @@ tipo en lugar de una interfaz) para caracterizar el tipo de datos presentes en e
 leer.
 Ha de tenerse en cuenta 
 * Que esta definición se introduce para disponer de un control de tipos de datos más
-exhaustivo 
+exhaustivo.
 * Que esa aplicación depende directamente del tipo de datos que se pretende leer y que habría que
-conocer a priori.
+conocer a priori, lo cual es una fuerte restricción de la aplicación.
 
-No es un objetivo de esta práctica (ni de esta asignatura) el estudio de los protocolos de comunicación ni las
+No es un objetivo de esta práctica ni de esta asignatura el estudio de los protocolos de comunicación ni las
 restricciones y características que intervienen en estas comunicaciones.
 
 El objeto de estos fragmentos de código es ofrecer al alumnado un esqueleto simple que pueden tomar como punto
@@ -134,7 +134,9 @@ Es muy fácil hoy en día hallar fuentes abiertas de diverso tipo de datos. Elij
 gustos o intereses.
 
 Identifique en su aplicación las diferentes clases que intervienen en su diseño así como la relación
-entre ellas y desarrolle un diagrama UML para esas clases, que ha de añadir a la página índice de esta
+entre ellas y utilice
+[LucidChart](https://www.lucidchart.com/pages/es)
+o una aplicación similar para realizar un diagrama UML para esas clases, que ha de añadir a la página índice de esta
 práctica.
 Asegúrese de la corrección de su diagrama UML.
 
@@ -169,8 +171,9 @@ Para facilitar la evaluación de su trabajo, haga que todas las páginas web rel
 
 ## Referencias
 * [Fetch](https://javascript.info/fetch)
-* [Express](https://expressjs.com/).
-* [TenerifeData](https://www.tenerifedata.com/).
+* [Express](https://expressjs.com/)
+* [TenerifeData](https://www.tenerifedata.com/)
+* [LucidChart](https://www.lucidchart.com/pages/es)
 * [TypeDoc](https://typedoc.org/)
 * [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
 * [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
