@@ -1,4 +1,4 @@
-# Práctica 9. JSON Data visualization
+# Práctica 8. JSON Data visualization
 ### Factor de ponderación: 8
 
 ### Objetivos
