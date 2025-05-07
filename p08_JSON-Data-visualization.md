@@ -140,6 +140,10 @@ o una aplicación similar para realizar un diagrama UML para esas clases, que ha
 práctica.
 Asegúrese de la corrección de su diagrama UML.
 
+### Interfaz gráfica de la aplicación 
+La interfaz gráfica de la aplicación se desarrollará a través de diferentes páginas HTML.
+Haga que en el elemento `title` del código HTML de todas las páginas web de su proyecto figure su nombre y apellidos.
+
 La visualización de la ejecución del programa se realizará a través de una página web alojada
 en la máquina IaaS-ULL de la asignatura y cuya URL tendrá la forma:
 
